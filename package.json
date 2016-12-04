@@ -1,0 +1,42 @@
+{
+  "name": "drepl",
+  "description": "Discord Javascript REPL bot w/ dynamic require",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/drepl",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/drepl",
+  "bugs": {
+    "url": "https://github.com/seanc/drepl/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator"
+  ],
+  "dependencies": {
+    "catlog": "^1.0.9",
+    "detective": "^4.3.2",
+    "discord.js": "^10.0.1",
+    "each-async": "^1.1.1",
+    "gfm-code-blocks": "^0.3.0",
+    "is-builtin-module": "^1.0.0",
+    "js-beautify": "^1.6.4",
+    "match-block": "^0.1.0",
+    "multiline": "^1.0.2",
+    "noop4": "^1.2.0",
+    "npmi": "^2.0.1",
+    "pixie": "^0.2.2",
+    "standard": "^8.6.0",
+    "vm2": "^3.1.0"
+  }
+}
