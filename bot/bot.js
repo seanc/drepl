@@ -3,6 +3,7 @@ const bot = new Client()
 
 const log = require('../lib/log')('bot')
 const repl = require('../lib/repl')
+const config = require('../lib/config')
 
 const prefix = '>> '
 
@@ -13,4 +14,4 @@ bot.on('message', message => {
   repl(message.content.slice(prefix.length).trim(), message)
 })
 
-bot.login('')
+bot.login(config.token)
