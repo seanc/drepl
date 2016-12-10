@@ -19,11 +19,11 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "mocha"
+    "start": "node .bot/bot"
   },
-  "keywords": [
-    "generategenerator"
-  ],
+  "bin": {
+    "drepl": "./bot/bot.js"
+  },
   "dependencies": {
     "catlog": "^1.0.9",
     "detective": "^4.3.2",
@@ -37,8 +37,6 @@
     "noop4": "^1.2.0",
     "npmi": "^2.0.1",
     "pixie": "^0.2.2",
-    "rc": "^1.1.6",
-    "standard": "^8.6.0",
-    "vm2": "^3.1.0"
+    "rc": "^1.1.6"
   }
 }
