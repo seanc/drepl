@@ -32,14 +32,15 @@ Example
 ```
 
 or multiline
-```
->>
+
+> \>>
 ```
 function foo() {
   return 'bar'
 }
 ```
-```
+
+make sure you include a space after your prefix, if you included one in the config
 
 ### Dynamic Require
 DREPL is a tad bit special, it parses calls to the `require` function and will
