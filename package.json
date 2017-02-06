@@ -19,7 +19,7 @@
     "node": ">=6"
   },
   "scripts": {
-    "start": "node .bot/bot"
+    "start": "node ./bot/bot"
   },
   "bin": {
     "drepl": "./bot/bot.js"
@@ -32,12 +32,14 @@
     "gfm-code-blocks": "^0.3.0",
     "is-builtin-module": "^1.0.0",
     "js-beautify": "^1.6.4",
+    "lowdb": "^0.14.0",
     "match-block": "^0.1.0",
     "minimist": "^1.2.0",
     "multiline": "^1.0.2",
     "noop4": "^1.2.0",
     "npmi": "^2.0.1",
     "pixie": "^0.2.2",
-    "rc": "^1.1.6"
+    "rc": "^1.1.6",
+    "vm2": "^3.1.0"
   }
 }
