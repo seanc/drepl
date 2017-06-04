@@ -6,7 +6,7 @@ const repl = require('../lib/repl')
 const config = require('../lib/config')
 const low = require('lowdb')
 
-const prefix = '>> '
+const prefix = '>>'
 const db = low('db.json')
 
 db.defaults({ users: [] }).value()
